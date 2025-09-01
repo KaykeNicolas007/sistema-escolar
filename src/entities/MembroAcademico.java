@@ -15,6 +15,13 @@ public abstract class MembroAcademico {
         this.disciplinas = disciplinas;
     }
 
+    public MembroAcademico(String curso, String dataNascimento, String nome, int matricula) {
+        this.curso = curso;
+        this.dataNascimento = dataNascimento;
+        this.nome = nome;
+        this.matricula = matricula;
+    }
+
     public String getCurso() {
         return curso;
     }
